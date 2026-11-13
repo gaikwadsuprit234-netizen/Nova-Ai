@@ -1,0 +1,174 @@
+{
+  "version": "2.0.0",
+  "product": "NOVA AI",
+  "capabilities": [
+    {
+      "id": "multi_provider_chat",
+      "label": "Multi-provider chat",
+      "category": "chat",
+      "status": "needs_setup",
+      "description": "Chat through a selected OpenAI, Gemini, or Anthropic API. Configure a provider key."
+    },
+    {
+      "id": "conversation_persistence",
+      "label": "Conversation persistence",
+      "category": "chat",
+      "status": "available",
+      "description": "Persist messages in the configured development database."
+    },
+    {
+      "id": "streaming",
+      "label": "Streaming responses",
+      "category": "chat",
+      "status": "planned",
+      "description": "Incremental token streaming and stop controls."
+    },
+    {
+      "id": "model_comparison",
+      "label": "Multi-model comparison",
+      "category": "models",
+      "status": "planned",
+      "description": "Run the same prompt across selected models and compare outputs."
+    },
+    {
+      "id": "web_search",
+      "label": "Web search with citations",
+      "category": "research",
+      "status": "planned",
+      "description": "Retrieve live sources and cite verified claims."
+    },
+    {
+      "id": "deep_research",
+      "label": "Deep research",
+      "category": "research",
+      "status": "planned",
+      "description": "Multi-step source research and cited reports."
+    },
+    {
+      "id": "file_analysis",
+      "label": "File analysis",
+      "category": "files",
+      "status": "planned",
+      "description": "Analyze PDF, DOCX, PPTX, CSV, XLSX, text, and images."
+    },
+    {
+      "id": "vision",
+      "label": "Image understanding",
+      "category": "multimodal",
+      "status": "planned",
+      "description": "Analyze screenshots, diagrams, charts, and photos through a vision-capable model."
+    },
+    {
+      "id": "image_generation",
+      "label": "Image generation and editing",
+      "category": "creative",
+      "status": "planned",
+      "description": "Generate/edit images through an enabled provider."
+    },
+    {
+      "id": "video_generation",
+      "label": "Video generation",
+      "category": "creative",
+      "status": "unavailable",
+      "description": "Requires a supported authorized video-generation API."
+    },
+    {
+      "id": "voice",
+      "label": "Voice conversation",
+      "category": "audio",
+      "status": "planned",
+      "description": "Speech input and spoken responses."
+    },
+    {
+      "id": "data_analyst",
+      "label": "Data analyst",
+      "category": "data",
+      "status": "planned",
+      "description": "Run deterministic data analysis in an isolated worker."
+    },
+    {
+      "id": "artifacts",
+      "label": "Artifacts workspace",
+      "category": "workspace",
+      "status": "planned",
+      "description": "Create and edit documents, code, diagrams, and interactive previews."
+    },
+    {
+      "id": "learning_mode",
+      "label": "Guided learning",
+      "category": "learning",
+      "status": "planned",
+      "description": "Tutoring, quizzes, flashcards, and step-by-step practice."
+    },
+    {
+      "id": "coding_agent",
+      "label": "Coding agent",
+      "category": "coding",
+      "status": "planned",
+      "description": "Generate and modify projects inside a secure sandbox."
+    },
+    {
+      "id": "autonomous_agent",
+      "label": "Autonomous agent",
+      "category": "agents",
+      "status": "planned",
+      "description": "Bounded plans, tools, approvals, pause/resume, and audit logs."
+    },
+    {
+      "id": "parallel_tasks",
+      "label": "Parallel tasks",
+      "category": "agents",
+      "status": "planned",
+      "description": "Run independent subtasks concurrently with limits."
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "category": "workspace",
+      "status": "planned",
+      "description": "Organize conversations, files, and instructions by project."
+    },
+    {
+      "id": "memory",
+      "label": "User-controlled memory",
+      "category": "personalization",
+      "status": "planned",
+      "description": "Inspect, edit, disable, export, and delete stored memory."
+    },
+    {
+      "id": "connectors",
+      "label": "Connectors and MCP",
+      "category": "integrations",
+      "status": "planned",
+      "description": "User-authorized external service integrations."
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "category": "integrations",
+      "status": "planned",
+      "description": "Versioned scoped instructions and tool packages."
+    },
+    {
+      "id": "live_data",
+      "label": "Live data",
+      "category": "live",
+      "status": "planned",
+      "description": "Current weather, sports, news, markets, and currency via real APIs."
+    },
+    {
+      "id": "scheduled_tasks",
+      "label": "Scheduled tasks",
+      "category": "automation",
+      "status": "planned",
+      "description": "User-controlled one-time and recurring tasks."
+    },
+    {
+      "id": "authentication",
+      "label": "Authentication and user isolation",
+      "category": "security",
+      "status": "planned",
+      "description": "Secure accounts, sessions, and per-user authorization before public deployment."
+    }
+  ]
+}
